@@ -7,6 +7,7 @@ import Services from '../components/Services'
 import Sidebar from '../components/Sidebar'
 import Footer from '../components/Footer'
 import Tec from '../components/Technologies'
+
 const Home = () => {
    const [isOpen, setIsOpen] = useState(false)
    const toggle =() => {
