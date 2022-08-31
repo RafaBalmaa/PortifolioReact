@@ -36,21 +36,21 @@ const Technologies = () => {
                <TecH2>NodeJs</TecH2>
                <TecP>Um estudo incrivel com uma linguagem inusitada, aprendi sobre packages do NodeJs, aprendia utilizar o terminal e o prompt de comando do NodeJS, fiz um Crud com login, cadastro e verificação de usuarios.</TecP>
             </TecCard>
-            {/* <TecCard>
+            <TecCard>
                <TecIcon src={RCT} />
                <TecH2>React</TecH2>
                <TecP>Como dito mais a cima, esse portifolio foi feito totalmente com o React, uma biblioteca do NodeJS, Usando componentes, e o styled-components, que como o proprio nome diz e um estilo para esses componentes, muito didatico e dinamico aprendendo coisas novas para assim tranformar-las em algo grande</TecP>
             </TecCard>
             <TecCard>
                <TecIcon src={HTML} />
-               <TecH2>React</TecH2>
+               <TecH2>Html</TecH2>
                <TecP>Linguagem inicial da maioria dos devs, o Html e uma das linguagems de base para um site, com ele estudei oque sao tags, estilos entre outras coisas</TecP>
             </TecCard>
             <TecCard>
                <TecIcon src={CSS} />
-               <TecH2>React</TecH2>
+               <TecH2>Css</TecH2>
                <TecP>Uma linguagem primordial para a estilização de telas o css foi a primeira linguagem para estilizar meu site, com ele aprendi a fazer telas responsivas, com flex e grid, tipos de estilização para ficar mais organizados e responsivo, entre outras coisas como active e hover </TecP>
-            </TecCard> */}
+            </TecCard>
          </TecWrapper>
       </TecContainer>
    )
