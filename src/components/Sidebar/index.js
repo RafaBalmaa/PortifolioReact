@@ -24,7 +24,7 @@ const Sidebar = ({isOpen, toggle}) => {
                   Descubra
                </SidebarLink>
                <SidebarLink to='services' onClick={toggle}>
-                  Projetos
+                  Services
                </SidebarLink>
                <SidebarLink to='singup' onClick={toggle}>
                   Tecnologias
