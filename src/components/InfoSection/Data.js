@@ -23,7 +23,7 @@ export const homeObjTwo = {
    headline: 'Descubra sobre o Site',
    description: 'Esse site foi feito totalmente com React, uma das bibliotecas mais famosas do NodeJS, tambem feita com uma das melhores packages do React o styled-components, feito com JavaScript',
    imgStart: true,
-   img: require('../../images/svg-4.svg'),
+   img: require('../../images/svg-4.svg').default,
    alt: 'Piggybanck',
    dark: false,
    primary: false,
@@ -39,7 +39,7 @@ export const homeObjThree = {
    headline: 'Aqui voce pode ver as Tecnologias que ja usei ',
    description: 'Ja estudei e utilizei muitas tecnologias indo do frontEnd ate o BackEnd e as vezes usei alguns sites de design',
    imgStart: false,
-   img: require('../../images/svg-1.svg'),
+   img: require('../../images/svg-1.svg').default,
    alt: 'Tecnologias',
    primary: false,
    darkText: true
