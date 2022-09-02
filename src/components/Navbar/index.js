@@ -12,6 +12,7 @@ import {
    NavLinks
 } from './NavbarElements';
 
+// import * as S from './NavbarElements'; // dica paulão
 
 const Navbar = ({ toggle }) => {
    const [scrollNav, setScrollNav] = useState(false)
