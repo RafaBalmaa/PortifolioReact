@@ -1,4 +1,5 @@
 import React from 'react'
+
 import PHP from '../../images/PHPTec.png'
 import JS from '../../images/JSTec.png'
 import RCT from '../../images/ReactTec.png'
@@ -48,7 +49,7 @@ const Technologies = () => {
             </TecCard>
             <TecCard>
                <TecIcon src={CSS} />
-               <TecH2>Cssnpm i react-responsive-carousel</TecH2>
+               <TecH2>Css</TecH2>
                <TecP>Uma linguagem primordial para a estilização de telas o css foi a primeira linguagem para estilizar meu site, com ele aprendi a fazer telas responsivas, com flex e grid, tipos de estilização para ficar mais organizados e responsivo, entre outras coisas como active e hover </TecP>
             </TecCard>
          </TecWrapper>

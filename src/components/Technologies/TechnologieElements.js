@@ -1,20 +1,17 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 
 export const TecContainer = styled.div`
-   height: 75rem;
+   height: 1100px;
    display: flex;
-   color: #000;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background: #fff;
-   margin-top: -28rem;
-   margin-bottom: 7rem;
+   background: #010606;
    @media screen and (max-width: 768px) {
-      height: 1100px;
+      height: 2500px;
    }
    @media screen and (max-width: 480px) {
-      height: 1300px;
+      height: 2700px;
    }
 `
 export const TecWrapper = styled.div`
@@ -40,9 +37,9 @@ export const TecCard = styled.div`
    justify-content: flex-start;
    align-items: center;
    border-radius: 10px;
-   max-height: 340px;
+   max-height: 350px;
    padding:  30px;
-   box-shadow: 0 1px 3px #000;
+   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
    transition: all 0.2s ease-in-out;
    &:hover {
       transform: scale(1.02);
@@ -57,7 +54,7 @@ export const TecIcon = styled.img`
 `
 export const TecH1 = styled.h1`
    font-size: 2.5rem;
-   color: #000;
+   color: #fff;
    margin-bottom: 64px;
    @media screen and (max-width: 480px) {
       font-size: 2rem;
@@ -69,7 +66,6 @@ export const TecH2 = styled.h2`
 `
 
 export const TecP = styled.p`
-   font-size: 1rem;
+   font-size: 15px;
    text-align: center;
-   margin-top: 0;
 `
