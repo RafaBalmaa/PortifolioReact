@@ -29,7 +29,7 @@ const HeroSection = () => {
             <HeroH1>Olá!</HeroH1>
             <HeroH1>Eu sou Rafael Balmant da Silva</HeroH1>
             <HeroP>
-               Seja bem vindo ao meu Portifolio, Aqui voce vera tudo sobre mim e meu desenvolvimento
+               Seja bem-vindo ao meu Portfólio, Aqui você vera tudo sobre mim e meu desenvolvimento.
             </HeroP>
             <HeroBtnWrapper>
             <Button to='about' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' smooth={true} duration={500} spy={true} exact='true' offset={-80}>

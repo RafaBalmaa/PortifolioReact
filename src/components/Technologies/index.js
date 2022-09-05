@@ -40,7 +40,7 @@ const Technologies = () => {
             <TecCard>
                <TecIcon src={RCT} />
                <TecH2>React</TecH2>
-               <TecP>Como dito mais a cima, esse portifolio foi feito totalmente com o React, uma biblioteca do NodeJS, Usando componentes, e o styled-components, que como o proprio nome diz e um estilo para esses componentes, muito didatico e dinamico aprendendo coisas novas para assim tranformar-las em algo grande</TecP>
+               <TecP>Como dito mais a cima, esse portifolio foi feito totalmente com o React, uma biblioteca do NodeJS, Usando componentes, e o styled-components, que como o proprio nome diz e um estilo para esses componentes, muito didatico e dinamico aprendendo coisas novas.</TecP>
             </TecCard>
             <TecCard>
                <TecIcon src={HTML} />
